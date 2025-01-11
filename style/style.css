@@ -86,8 +86,13 @@ h2{
     font-size: 32px;
     margin: 50px 0 30px 0;
 }
+h3{
+    font-size: 24px;
+    margin: 15px 0;
+}
 p{
     font-size: 16px;
+    margin: 10px 0;
 }
 .pillar{
     margin: 20px 0;
@@ -101,9 +106,62 @@ p{
     justify-content: space-between;
 }
 .pillar-card{
+    max-width: 280px;
     background: #fff;
     border-radius: 20px;
     padding: 25px;
-    margin: 10px;
-    
+    margin: 15px 0;  
 }
+
+.vision-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vision-card{
+    max-width: 370px;
+    padding: 20px;
+    border-radius: 16px;
+    margin: 25px 0;
+    transition: ease-in 0.4s;
+}
+.vision-card-1{
+    background: #d5e1f5;
+}
+.vision-card-2{
+    background: #76eb76;
+}
+.vision-card-3{
+    background: #f2f553;
+}
+.vision-card button{
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: none;
+    margin: 10px 0;
+    background: #5490f5;
+    cursor: pointer;
+}
+.vision-card-1:hover{
+    background: #c7abab;
+}
+.vision-card-2:hover{
+    background: #b68dc2;
+}
+.vision-card-3:hover{
+    background: #b3b0b0;
+}
+.quote{
+    background: #fff;
+    padding: 15px;
+    border-radius: 16px;
+    margin: 10px 0 20px 0;
+}
+.yunus-deg{
+    font-size: 12px;
+}
+.opinin-table{
+    background: #fff;
+    padding: 16px;
+}
+
