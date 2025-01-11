@@ -93,6 +93,7 @@ p{
 }
 .pillar h3{
     margin: 18px 0;
+    color: #565656;
 }
 .pillar-card-container{
     display: flex;
@@ -196,6 +197,7 @@ p{
 .donate p{
     font-size: 14px;
     margin-bottom: 15px;
+    
 }
 .amount-btn{
     padding: 10px;
@@ -231,6 +233,7 @@ p{
     text-align: center;
     background: #c6e4d6;
     padding: 20px 30px 30px 30px;
+    border-radius: 10px;
 }
 .subscription button{
     margin: 16px 0;
@@ -246,4 +249,36 @@ p{
 }
 .promis{
     font-size: 12px;
+}
+footer{
+    background: #fff;
+}
+footer h3{
+    text-align: center;
+    margin: 80px 0 20px 0;
+    padding-top: 40px;
+    font-size: 32px;
+}
+footer hr{
+    color: #5490f5;
+    border: 1px solid #dfdbdb;
+    width: 70%;
+    opacity: .5;
+    margin: 0 auto;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+}
+.social-link a img{
+    margin: 0 2px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+.social-link a img:hover{
+    background: #ac8ed3b6;
 }
